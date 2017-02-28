@@ -11,6 +11,11 @@ $ composer global require drupal/console:@stable
 $ echo "PATH=$PATH:~/.composer/vendor/bin" >> ~/.bash_profile
 ```
 
+## If you are using fish shell:
+```
+$ set -x PATH ~/.composer/vendor/bin/ $PATH
+```
+
 ## You can now execute console using:
 ```
 $ drupal generate:module
